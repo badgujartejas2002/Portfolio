@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM WEBSITE</title>
+</head>
+<Style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background: url(silhouette-woman-gym.jpg) center /cover;
+        background-repeat: no-repeat;
+    }
+
+    .container-fluid {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container {
+        width: 100%;
+        height: 80px;
+        margin: auto;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0.2)50%, rgba(255, 255, 255, 0.2)50%);
+    }
+
+    nav {
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo {
+        color: rgb(250, 250, 250);
+        font-size: 30px;
+        cursor: pointer;
+
+    }
+
+    span {
+        color: #ed563b;
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+
+    ul li {
+        cursor: pointer;
+        margin-right: 30px;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .active {
+        color: #ed563b;
+
+    }
+
+    ul li :hover {
+        color: rgb(15, 35, 6);
+
+    }
+
+    .btn {
+        background: #ed563b;
+        color: rgb(241, 243, 240);
+        font-size: 15px;
+        padding: 10px 40px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+
+    }
+
+    .content {
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .content h3 {
+        color: rgb(251, 246, 246);
+        padding-top: 150px;
+
+    }
+
+    .content h1 {
+        color: rgb(251, 251, 248);
+        padding-top: 20px;
+        font-size: 90px;
+
+    }
+
+    .content .btn {
+        font-size: 20px;
+        margin-top: 25px;
+
+    }
+
+    .content .btn :hover {
+        background: rgb(57, 11, 11);
+        color: #ed563d;
+
+    }
+</Style>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <nav>
+                <h2 class="logo">TEJAS<span> FITNESS</span></h2>
+                <ul>
+                    <li class="acctive">Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Classes</li>
+                    <li>Schedule</li>
+                    <li>Contact</li>
+                    <li><button class="btn">Sign Up</button></li>
+                    <div>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h3>WORK HARDER,GET STRONGER</h3>
+            <h1>EASY WITH OUR <span>GYM</span></h1>
+            <button class="btn">Become A Member</button>
+        </div>
+    </div>
+</body>
+
+</html>
